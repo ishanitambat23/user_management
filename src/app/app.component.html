@@ -1,25 +1,11 @@
-<!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">User Management</a>
-  <button class="btn btn-primary ml-auto" (click)="openAddUserForm()">
+  <a class="btn btn-primary ml-auto" routerLink="/add" routerLinkActive="active">
     Add User
-  </button>
+  </a>
 </nav>
 
-<!-- User Form -->
+<!-- Router Outlet for dynamic component rendering -->
 <div class="container mt-4">
-  <div *ngIf="showForm">
-    <app-user-form
-      [user]="selectedUser"
-      [isEditMode]="isEditMode"
-      (userUpdated)="onUserAddedOrUpdated()"
-      (formCancelled)="cancelForm()"
-    ></app-user-form>
-  </div>
-
-  <!-- User Table -->
-  <div *ngIf="!showForm">
-    <app-user-table [users]="users" (userSelected)="onEdit($event)">
-    </app-user-table>
-  </div>
+  <router-outlet></router-outlet> <!-- Dynamically loads UserTable or UserForm based on route -->
 </div>

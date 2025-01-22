@@ -1,34 +1,46 @@
 {
   "users": [
     {
-      "firstName": "atreya",
-      "lastName": "tambat",
-      "email": "ishani@1456",
-      "id": 10
+      "firstName": "Ishani ",
+      "lastName": "Tambat",
+      "email": "ishani@123",
+      "id": 1
     },
     {
-      "firstName": "pratap",
-      "lastName": "rajput",
+      "firstName": "Pratap",
+      "lastName": "Rajput",
       "email": "pratap@123",
-      "id": 12
+      "id": 2
     },
     {
-      "firstName": "Kalpashree",
+      "firstName": "Amisha ",
+      "lastName": "Tambat",
+      "email": "amisha@123456",
+      "id": 3
+    },
+    {
+      "firstName": "Paresh",
+      "lastName": "Tambat",
+      "email": "paresh@123",
+      "id": 4
+    },
+    {
+      "firstName": "Neela",
       "lastName": "Tambat",
       "email": "neela@123",
-      "id": 13
+      "id": 5
     },
     {
-      "firstName": "shardul",
-      "lastName": "kulkarni",
-      "email": "shardul@346",
-      "id": 14
+      "firstName": "Arnav",
+      "lastName": "Tambat",
+      "email": "arnav@123",
+      "id": 6
     },
     {
-      "firstName": "neela",
-      "lastName": "tambat",
-      "email": "neela@123",
-      "id": 15
+      "firstName": "Muskan",
+      "lastName": "Rawat",
+      "email": "muskan@123",
+      "id": 7
     }
   ]
 }
