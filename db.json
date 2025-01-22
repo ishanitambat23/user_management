@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "firstName": "atreya",
+      "lastName": "tambat",
+      "email": "ishani@1456",
+      "id": 10
+    },
+    {
+      "firstName": "pratap",
+      "lastName": "rajput",
+      "email": "pratap@123",
+      "id": 12
+    },
+    {
+      "firstName": "Kalpashree",
+      "lastName": "Tambat",
+      "email": "neela@123",
+      "id": 13
+    },
+    {
+      "firstName": "shardul",
+      "lastName": "kulkarni",
+      "email": "shardul@346",
+      "id": 14
+    },
+    {
+      "firstName": "neela",
+      "lastName": "tambat",
+      "email": "neela@123",
+      "id": 15
+    }
+  ]
+}
